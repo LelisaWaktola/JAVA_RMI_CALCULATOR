@@ -5,7 +5,11 @@ spring:
   datasource:
     url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/calculator}
     username: ${DATABASE_USERNAME:postgres}
+<<<<<<< HEAD
     password: ${DATABASE_PASSWORD:}
+=======
+    password: ${DATABASE_PASSWORD:password}
+>>>>>>> da580251d6e0b7251197c4b8b98c170260d0793b
     driver-class-name: org.postgresql.Driver
 
   jpa:
